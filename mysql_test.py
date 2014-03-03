@@ -20,7 +20,7 @@ DBTABLE = 'testtable'
 
 MAX = 10000  # random max number
 TIME = 10000 # query times
-QUERY = 1   # the key to query
+QUERY = 1   # the key to query, init here, and random in use place
 
 # connect the database
 try:
@@ -50,6 +50,7 @@ def show():
     
 def query():
     # query the num in database
+    QUERY = random.randint(0,MAX)
     command = 'SELECT * FROM %s WHERE id=%d'%(DBTABLE, QUERY)
     cursor.execute(command)
     #result = cursor.fetchall()

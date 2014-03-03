@@ -17,8 +17,8 @@ PORT = 6379
 DB = 0
 
 MAX = 10000 # inseart max number
-TIME = 1000000 # query times
-QUERY = MAX/2   # the key to query
+TIME = 10000 # query times
+QUERY = MAX/2   # the key to query,init here, random choosed in use place
 
 # connect the database
 
@@ -34,6 +34,7 @@ def insert():
     
 def query():
     # query the num in database
+    QUERY = random.randint(0, MAX)
     key = str(QUERY)
     value = r.get(key)
     #print 'key:%s value:%s'%(key, value)
