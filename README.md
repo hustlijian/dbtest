@@ -61,4 +61,16 @@ Dataset: graph-dataset-generator.py
 kv-query-yyyy-mm-dd-.csv
 ...
 
+## References
+
+1. Benchmarking Top NoSQL Databases, [link](http://www.datastax.com/resources/whitepapers/benchmarking-top-nosql-databases)
+2. Scalable SQL and NoSQL data stores, [link](http://dl.acm.org/citation.cfm?id=1978919)
+3. Performance of graph query languages: comparison of cypher, gremlin and native access in Neo4j, [link](http://dl.acm.org/citation.cfm?id=2457351)
+4. Survey of graph database performance on the HPC scalable graph analysis benchmark, [link](http://dl.acm.org/citation.cfm?id=1927590)
+5. Survey of graph database models, [link](http://dl.acm.org/citation.cfm?id=1322433)
+6. Graph Database Indexing Using Structured Graph Decomposition, [link](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=4221746&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D4221746)
+7. A comparison of a graph database and a relational database: a data provenance perspective, [link](http://dl.acm.org/citation.cfm?id=1900067)
+8. Freebase: a collaboratively created graph database for structuring human knowledge, [link](http://dl.acm.org/citation.cfm?id=1376746)
+9. Fast and practical indexing and querying of very large graphs, [link](http://dl.acm.org/citation.cfm?id=1247573)
+...
 
