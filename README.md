@@ -26,7 +26,7 @@ Comprehensive database query test, with a focus on linked data and complex query
 
 ## Test Cases
 
-1. KV Query
+### Case 1: KV Query
 
 Query on a given key, for showing baseline performance.
 For DBMS, use SELECT on specified key, for Graph DB, use their own methods to access a specified node.
@@ -38,19 +38,19 @@ For DBMS, use SELECT on specified key, for Graph DB, use their own methods to ac
 
 Dataset: kv-dataset-generator.py
 
-2. Linked Data Query
+### Case 2: Linked Data Query
 
 Query linked data, to find out the database support for relationships.
 
 Dataset: linked-dataset-generator.py
 
-3. Path finding
+### Case 3: Path finding
 
 Query graph connectivity.
 
 Dataset: graph-dataset-generator.py
 
-4. Pattern Matching
+### Case 4: Pattern Matching
 
 Query sub-graph.
 
