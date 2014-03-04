@@ -12,6 +12,7 @@ Comprehensive database query test, with a focus on linked data and complex query
 ### KV-DB
 1. [Redis](http://redis.io/)
 2. [Memcached](http://memcached.org/)
+3. [leveldb](https://code.google.com/p/leveldb/)
 
 ### DOC-DB
 1. [MongoDB](http://www.mongodb.org/)
