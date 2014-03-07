@@ -41,9 +41,9 @@ def insert():
     print 'insert count :%s'%MAX
 
 
-    # create a table
+    # try to create a table
     try:
-        command = 'CREATE TABLE %s(id serial primary key, num integer );'%DBTABLE
+        command = 'CREATE TABLE IF NOT EXISTS  %s(id serial primary key, num integer );'%DBTABLE
         cursor.execute(command)
     except :
         print 'create table error'
