@@ -46,6 +46,8 @@ Query linked data, to find out the database support for relationships.
 
 Dataset: linked-dataset-generator.py
 
+Real World Data: [Stanford Large Network Dataset Collection](http://snap.stanford.edu/data/)
+
 ### Case 3: Path finding
 
 Query graph connectivity.
